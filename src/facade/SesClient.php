@@ -26,6 +26,7 @@ class SesClient extends Facade
      */
     protected static function getFacadeClass()
     {
+        // 返回
         return \think\SesClient::class;
     }
 }
